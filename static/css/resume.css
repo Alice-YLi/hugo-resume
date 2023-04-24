@@ -1,7 +1,14 @@
+:root {
+  --grey: #595959;
+  --light-grey: #8a8a8a;
+  --theme-color-1: #0070AA;
+  --theme-color-2: #003957;
+}
+
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  color: #868e96;
+  color: var(--grey);
 }
 
 @media (min-width: 992px) {
@@ -19,7 +26,7 @@ h5,
 h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
-  color: #343a40;
+  color: var(--light-grey);
 }
 
 
@@ -135,17 +142,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: var(--theme-color-1) !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: var(--theme-color-1) !important;
 }
 
 a {
-  color: #BD5D38;
+  color: var(--theme-color-1);
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: var(--theme-color-2);
 }
